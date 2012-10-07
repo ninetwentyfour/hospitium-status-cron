@@ -27,7 +27,7 @@ stashboard_auth = {
 
 # Stashboard service id => Regex matching pingdom check name(s)
 services = {
-  'imago'    => /imago/i
+  'hospitium-co'    => /hospitium/i
 }
 
 stashboard = Stashboard::Stashboard.new(
