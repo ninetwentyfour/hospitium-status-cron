@@ -58,7 +58,7 @@ pingdom.checks.each do |check|
   puts "Check: #{check.name} => #{check.status} [#{service}]"
   
   # Find outages in the last 24 hrs
-  yesterday = Time.now - 1.day
+  yesterday = Time.now - 1.hour
   recent_outages = check.summary.outages.select do |outage|
     Time.at(outage.timefrom.to_i).to_datetime > yesterday || Time.at(outage.timeto.to_i).to_datetime > yesterday
   end
