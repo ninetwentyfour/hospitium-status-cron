@@ -1,6 +1,8 @@
 Hospitium Status Cron
 ====
 
+[![Dependency Status](https://gemnasium.com/ninetwentyfour/hospitium-status-cron.png)](https://gemnasium.com/ninetwentyfour/hospitium-status-cron)
+
 Simple ruby script that syncs pingdom with stashboard. Ran as a cron job on heroku. Used for [status.hospitium.co](http://status.hospitium.co).
 
 Based on the awesome script from [http://dev.bizo.com/2011/05/synchronizing-stashboard-with-pingdom.html](http://dev.bizo.com/2011/05/synchronizing-stashboard-with-pingdom.html)
